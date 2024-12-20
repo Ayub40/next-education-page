@@ -1,5 +1,6 @@
 import BecomeTeacher from "@/components/BecomeTeacher";
 import Blogs from "@/components/Blogs ";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Heros from "@/components/Heros";
 import NavBar from "@/components/NavBar";
@@ -27,6 +28,7 @@ export default function Home() {
       <Heros></Heros>
       <Testimonials></Testimonials>
       <Blogs></Blogs>
+      <Footer></Footer>
     </div>
   );
 }
